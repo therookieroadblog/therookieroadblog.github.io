@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.typekit.net/irg1sed.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="logo.png">
+    <title>The Rookie Road Blog</title>
+    <style type="text/css">
+      html, body {
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+      }
+
+      #logo {
+        min-width: 140px;
+        width: 18%;
+      }
+
+      @media all and (orientation:landscape) {
+        body {
+          background: url('background-desktop.jpg') no-repeat center center fixed;
+        }
+      }
+
+      @media all and (orientation:portrait) {
+        body {
+          background: url('background-mobile.jpg') no-repeat center center fixed;
+        }
+        .hide { display: none; }
+        #hero {
+          position: absolute;
+          right: 8%;
+          width: 60%;
+        }
+
+        #footer {
+          color: #ffffff;
+        }      
+      }
+
+      body {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+      }
+
+      #footer {
+        position: absolute;
+        bottom: 5px;
+        right: 10px;
+        text-align: right;
+        font-size: 12px;
+      }
+    }
+    </style>
+  </head>
+  <body>
+      <div id="hero" class="py-5 text-center">
+        <img id="logo" class="d-block mx-auto mb-4" src="logo.png" alt="">
+        <h1 class="display-5 fw-bold">The Rookie Road <span class="hide">blog</span><br>is coming soon!</h1>
+        <div class="col-lg-6 col-sm-6 mx-auto hide">
+          <p class="lead mb-4">We are working hard to finish the development of this site.</p>
+        </div>
+      </div>
+    <div id="footer">Copyright (c) 2023 RookieRoad GbR</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
